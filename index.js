@@ -9,7 +9,7 @@ connectDB();
 
 app.use("/", HomeRouter);
 
-app.get("/get", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hi");
 });
 
